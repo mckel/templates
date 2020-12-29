@@ -23,7 +23,9 @@ Used the following rule to have the red LED lit while the relay is off and blue 
 rule1 on power1#state=0 do backlog ledpower1 0; ledpower2 1 endon on power1#state=1 do backlog ledpower1 1; ledpower2 0 endon
 ```
 
+Activate the Rule with 
 
+Rule1 1
 
 
 
